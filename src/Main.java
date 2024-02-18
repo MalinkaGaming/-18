@@ -14,7 +14,6 @@ public class Main {
         } finally {
             System.out.println("Проверка выполнена");
         }
-
     }
     static void checkAuth(String login,String password, String confirmPassword) throws WrongLoginException, WrongPasswordException {
         if (password == null||password.isEmpty()
